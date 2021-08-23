@@ -1,2 +1,3 @@
  console.log('Olá Mundo');
- alert('Ola mundo');
+ console.log('Olá Mundo 2');
+ alert('teste');
