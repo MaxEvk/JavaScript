@@ -23,12 +23,6 @@ pessoa.incrementaIdade();
 
 
 
-
-
-
-
-
-
 /*function criaPessoa(nome, sobrenome, idade) {
     return {
         nome, sobrenome, idade
