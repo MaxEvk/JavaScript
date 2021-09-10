@@ -18,7 +18,7 @@ form.addEventListener('submit', function (evento) {
         document.querySelector('.resultado').innerText = 'Peso inválido!';
 
     } else if (!altura == true) {
-        
+
         console.log('Altura inválida!');
         document.querySelector('.resultado').innerText = 'Altura inválida!';
 
@@ -29,7 +29,6 @@ form.addEventListener('submit', function (evento) {
 });
 
 function getNivelImc(imc) {
-
     const nivel = ['Abaixo do peso',
         'Peso normal',
         'Sobrepeso',
