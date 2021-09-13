@@ -6,7 +6,7 @@ function zeroAEsquerda (n) {
     return n >= 10 ? n : `0${n}`;
 }
 
-function formataData(data) {
+function formataData(data1) {
     const dia = zeroAEsquerda(data.getDate());
     const mes = zeroAEsquerda(data.getMonth() + 1);
     const ano = zeroAEsquerda(data.getFullYear());
