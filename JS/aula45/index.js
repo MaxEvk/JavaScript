@@ -1,10 +1,4 @@
-/*try {
-    //É executado quando não há erros
-} catch (e) {
-    //É executado quando há erros
-} finally {
-    //Sempre vai ser executado com ou sem erros
-}*/
+
 function retornaHora(data) {
     if (data && !(data instanceof Date)) {
         throw new TypeError('Esperando instância de date.')
@@ -18,17 +12,17 @@ function retornaHora(data) {
         hour: '2-digit',
         minute: '2-digit',
         second: '2-digit',
-        hour12: false
+        hour12: false //Tirar o PM ou AM da Hora
     });
 
 }
 
-try {
+try {//É executado quando não há erros
     const hora = retornaHora();
     console.log(hora);
-} catch (e) {
+} catch (e) { //É executado quando há erros
     //Tratar erro
     console.log('Formato errado');
-} finally {
+} finally {//Sempre vai ser executado com ou sem erros
     console.log('Tenha um bom dia!');
 }
